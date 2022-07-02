@@ -1838,6 +1838,11 @@ a:hover {
     z-index: 1010;
 }
 
+.modal.show {
+    display: -ms-flexbox;
+    display: flex;
+}
+
 .modal__content {
     width: 100%;
     max-width: 500px;
@@ -1849,6 +1854,11 @@ a:hover {
 
 .modal__content--contact {
     padding-bottom: 2.5rem;
+}
+
+.modal__content--story {
+    padding: 0;
+    background: none;
 }
 
 .modal__close {
@@ -1892,4 +1902,9 @@ a:hover {
 
 .modal__footer a:hover {
     text-decoration: none;
+}
+
+.modal__video {
+    margin: 0 auto;
+    display: block;
 }
